@@ -46,10 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Yurowm\Demo\Scripts\Actions.cs" />
-     <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
-     <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterViewer.cs" />
-     <Compile Include="Assets\Yurowm\Demo\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\ZombiAction.cs" />
+     <Compile Include="Assets\Yurowm\Scripts\Actions.cs" />
+     <Compile Include="Assets\Yurowm\Scripts\CharacterPanel.cs" />
+     <Compile Include="Assets\Yurowm\Scripts\CharacterViewer.cs" />
+     <Compile Include="Assets\Yurowm\Scripts\PlayerController.cs" />
      <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
