@@ -50,11 +50,7 @@ public class Actions : MonoBehaviour {
 		velocity = new Vector3 (0, 0, v);
 		velocity = transform.TransformDirection (velocity);
 
-		if (v > 0.1) {
-			velocity *= 1;
-		} else if (v < -0.1) {
-			velocity /= 2;
-		}
+		velocity *= 1;
 			
 		transform.localPosition += velocity * Time.fixedDeltaTime;
 		transform.Rotate (0, h * 2, 0);	
